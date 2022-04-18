@@ -22,11 +22,179 @@
     <!-- FontAwesome Icon Library -->
     <script src="https://kit.fontawesome.com/abb75bf73d.js" crossorigin="anonymous"></script>
 
+    <!-- Theme Colors -->
+    <style>
+      .theme-color {
+        color: #52b788
+      } 
+    </style>
   </head>
   <body>
-    <div class="is-fluid">
-    Website
-        
+
+    <!-- Navbar -->
+    <div class="container is-fluid mt-2">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+          
+          <a class="navbar-item has-text-weight-semibold theme-color" href="/">Teams</a>
+
+          <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+          >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+          <a class="navbar-item" href="/">
+            <span class="icon mr-1 theme-color">
+              <i class="fa-solid fa-house"></i>
+            </span>
+            Home </a>
+          <a class="navbar-item" href="/daily-deals"> 
+            <span class="icon mr-1 theme-color">
+              <i class="fa-solid fa-futbol"></i>
+            </span>
+            Leagues </a>
+
+
+          <hr class="solid my-1">
+
+
+          </div>
+      </div>
+
+      </nav>
+    </div>
+
+    <!-- Headings -->
+    <div class="container is-fluid">
+      <h1 class="is-size-4"><strong>Super Premier</strong></h1>
+      <h1 class="is-size-6">La Liga Latina De Washington</h1>
+
+      <div class="buttons are-small mt-2">
+        <button class="button is-info is-light">Standings</button>
+        <button class="button is-success is-light">Goals</button>
+        <button class="button is-warning is-light">Assists</button>
+      </div>
+
+    </div>
+
+    <!-- Table -->
+    <div class="table-container">
+      <table class="table mt-2">
+        <thead>
+          <tr>
+            <th>Pos</th>
+            <th>Team</th>
+            <th>MP</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th>Pts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>1</th>
+            <td>
+              <div class="level is-mobile mt-1">
+                <div class="level-left">
+                  <div class="level-item">
+                    <figure class="image is-16x16">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/1200px-Leicester_City_crest.svg.png">
+                    </figure>
+                    <label class="label is-small ml-2">Leicester City</label>
+                    
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>38</td>
+            <td>23</td>
+            <td>12</td>
+            <td>3</td>
+            <td>81</td>
+          </tr>
+
+          <tr>
+            <th>2</th>
+            <td>
+              <div class="level is-mobile">
+                <div class="level-left">
+                  <div class="level-item">
+                    <figure class="image is-16x16">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg">
+                    </figure>
+                    <label class="label is-small ml-2">Arsenal</label>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </td>
+            <td>38</td>
+            <td>20</td>
+            <td>11</td>
+            <td>7</td>
+            <td>71</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>
+              <div class="level is-mobile mt-1">
+                <div class="level-left">
+                  <div class="level-item">
+                    <figure class="image is-16x16">
+                      <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c4ee.png">
+                    </figure>
+                    <label class="label is-small ml-2">Tottenham</label>
+                    
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>38</td>
+            <td>19</td>
+            <td>13</td>
+            <td>6</td>
+            <td>70</td>
+          </tr>
+          <tr class="">
+            <th>4</th>
+            <td>
+              <div class="level is-mobile mt-1">
+                <div class="level-left">
+                  <div class="level-item">
+                    <figure class="image is-16x16">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png">
+                    </figure>
+                    <label class="label is-small ml-2">Manchester</label>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </td>
+            <td>38</td>
+            <td>19</td>
+            <td>9</td>
+            <td>10</td>
+            <td>66</td>
+          </tr>
+  
+        </tbody>
+      </table>
+    </div>
+    
+
   </body>
 </html>
 
